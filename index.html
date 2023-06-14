@@ -19,22 +19,22 @@
         <nav>
           <ul class="menu">
             <li>
-              <button class="btn-menu btn-categoria active">
+              <button id="todos" class="btn-menu btn-categoria active">
                 <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
               </button>
             </li>
             <li>
-              <button class="btn-menu btn-categoria">
-                <i class="bi bi-hand-index-thumb"></i> Buzos
+              <button id="abrigos" class="btn-menu btn-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Abrigos
               </button>
             </li>
             <li>
-              <button class="btn-menu btn-categoria">
+              <button id="camisetas" class="btn-menu btn-categoria">
                 <i class="bi bi-hand-index-thumb"></i> Camisetas
               </button>
             </li>
             <li>
-              <button class="btn-menu btn-categoria">
+              <button id="pantalones" class="btn-menu btn-categoria">
                 <i class="bi bi-hand-index-thumb"></i> Pantalones
               </button>
             </li>
@@ -51,41 +51,12 @@
       </aside>
       <main>
         <h2 class="titulo-principal">Todos los productos</h2>
-        <div class="contenedor-producto">
-          <div class="producto">
-            <img class="producto-img" src="./img/abrigos/01.jpg" alt="Abrigo" />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Abrigo 01</h3>
-              <p class="producto-precio">$1000</p>
-              <button class="btn-agregar">Agregar</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img class="producto-img" src="./img/abrigos/02.jpg" alt="Abrigo" />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Abrigo 02</h3>
-              <p class="producto-precio">$1000</p>
-              <button class="btn-agregar">Agregar</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img class="producto-img" src="./img/abrigos/03.jpg" alt="Abrigo" />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Abrigo 03</h3>
-              <p class="producto-precio">$1000</p>
-              <button class="btn-agregar">Agregar</button>
-            </div>
-          </div>
-          <div class="producto">
-            <img class="producto-img" src="./img/abrigos/04.jpg" alt="Abrigo" />
-            <div class="producto-detalles">
-              <h3 class="producto-titulo">Abrigo 04</h3>
-              <p class="producto-precio">$1000</p>
-              <button class="btn-agregar">Agregar</button>
-            </div>
-          </div>
+        <div id="contenedor-productos" class="contenedor-producto">
+          <!-- Esto se va a llenar con JS -->
         </div>
       </main>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
