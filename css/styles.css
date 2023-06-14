@@ -119,6 +119,18 @@ aside {
   margin-top: 2rem;
 }
 
+.numero {
+  background-color: var(--clr-white);
+  color: var(--clr-main);
+  padding: 0.15rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.boton-carro.active .numero {
+  background-color: var(--clr-main);
+  color: var(--clr-white);
+}
+
 .texto-footer {
   color: var(--clr-main-light);
   font-size: 0.85rem;
